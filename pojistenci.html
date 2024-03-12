@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Pojištění</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <script src="js/databaze.js" ></script>
+</head>
+    <body onload="renderUserList()" >
+        <header>
+            <h1>Pojištění App</h1>
+        </header>
+          <div id="userList">
+            <h2>Pojištěnci</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Jméno a příjmení</th>
+                  <th>Telefon</th>
+                  <th>Věk</th>
+                </tr>
+              </thead>
+              <tbody>
+            </table>
+          </div>
+          <div id="userForm">
+            <h2>Nový pojištěnec</h2>
+            <form>
+              <table>
+                <tr>
+                  <td>
+                    <label for="jmeno">Jméno</label></br>
+                    <input type="text" name="jmeno" /></br>
+                  </td>
+                  <td>
+                    <label for="prijmeni">Příjmení</label></br>
+                    <input type="text" name="prijmeni" /></br>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="vek">Věk</label><br />
+                    <input type="number" name="vek" /></br>
+                  </td>
+                  <td>
+                    <label for="tel">Telefon</label></br>
+                    <input type="telnum" name="tel" /></br>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <input type="button" value="Uložit" onclick="addUser(this.form)" />
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+    <footer>
+        Vytvořila &copy;DanaS pro <a href="https://itnetwork.cz">ITnetwork.cz</a>
+    </footer>
+  </body>
+</html>

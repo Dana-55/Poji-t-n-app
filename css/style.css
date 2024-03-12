@@ -1,0 +1,114 @@
+header {
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+  background: rgb(30, 30, 95);
+  margin: 0px 0px 0px 0px;
+  padding: 7px 0px 7px 15px;
+  display: flex;
+  height: 65px;
+  width: 1890px;
+}
+
+h2 {
+  font-family: Verdana;
+  color:rgb(30, 30, 95); 
+  font-size: 25px;
+  margin: 30px 0px 0px 15px;
+  padding: 0px 0px 0px 0px;
+ 
+}
+
+h3 {
+  font-family: Verdana;
+  color:rgb(30, 30, 95); 
+  font-size: 25px;
+ 
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+
+  li {
+    float: left;
+  }
+
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background: rgb(28, 28, 134);
+  }
+
+
+table,
+th,
+td {
+  padding: 10px;
+  border-collapse: collapse;
+  font-family: Verdana;
+  font-size: 15px; 
+}
+
+
+#userList table {
+  width: 50%;
+}
+
+
+#userList table,
+#userList th,
+#userList td {
+  border: 1px solid black;
+  font-size: 15px;
+  font-family: Verdana;
+  text-align: left;
+  margin: 35px 0px 130px 55px;
+  padding: 0px 0px 0px 5px;
+}
+
+
+
+#userForm table {
+
+  margin: 35px 0px 130px 55px;
+  color: black;
+
+}
+
+input[type="button"] {
+  display: block;
+  margin: auto;
+  padding: 10px 30px;
+  background: rgb(30, 30, 95);
+  font-size: 15px;
+  color: white;
+  border-radius: 25px;
+  margin: 9px 0px 0px 125px 
+}
+
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    height: 35px;
+    color: white;
+    background:  rgb(30, 30, 95);
+    padding: 50px 0 0 0;
+    clip-path: polygon(0 0px, 100% 0, 100% 105%, 0 105%);
+    margin: 288px 0px 0px 0px;
+    padding: 14px;
+}
